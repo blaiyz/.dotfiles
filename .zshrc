@@ -83,6 +83,8 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
     zsh-vi-mode
+    kubectl
+	python
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -131,6 +133,3 @@ eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/blaiyz/om
 function urldecode() { : "${*//+/ }"; echo -e "${_//%/\\x}"; }
 
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
-
-# Kubectl completions
-source <(kubectl completion zsh)
