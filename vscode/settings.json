@@ -1,0 +1,317 @@
+{
+    "python.defaultInterpreterPath": "%LOCALAPPDATA%\\Programs\\Python\\Python312\\python.exe",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.startupPrompt": "always",
+    "security.workspace.trust.banner": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "debug.confirmOnExit": "always",
+    "editor.cursorSurroundingLines": 5,
+    "editor.fontLigatures": true,
+    "html.format.wrapLineLength": 80,
+    "python.autoComplete.extraPaths": [],
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.rules.customizations": [
+        {
+            "rule": "*",
+            "severity": "warn"
+        }
+    ],
+    "eslint.validate": ["javascript", "typescript", "svelte"],
+    "python.analysis.extraPaths": [],
+    "python.analysis.typeCheckingMode": "standard",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "debug.inlineValues": "off",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "git.enableSmartCommit": true,
+    "git.decorations.enabled": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.fontSize": 18,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "css.format.spaceAroundSelectorSeparator": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "debug.console.fontFamily": "Cascadia Code",
+    "debug.console.fontSize": 16,
+    "editor.fontVariations": false,
+    "workbench.editorAssociations": {
+        "*.out": "default"
+    },
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "remote.SSH.remotePlatform": {
+        "blaiyyz.lan": "linux"
+    },
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.formatting": "vcFormat",
+    "codesnap.realLineNumbers": true,
+    "codesnap.showWindowControls": false,
+    "codesnap.transparentBackground": true,
+    "codesnap.shutterAction": "copy",
+    "security.allowedUNCHosts": ["wsl.localhost", "DESKTOP-BLAIYZ"],
+    "workbench.iconTheme": "material-icon-theme",
+    "python.missingPackage.severity": "Error",
+    "github.copilot.advanced": {},
+    "python.analysis.autoImportCompletions": true,
+    "editor.rulers": [],
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.unicodeHighlight.includeStrings": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "git.confirmSync": true,
+    "jupyter.askForKernelRestart": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.indentInnerHtml": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "explorer.incrementalNaming": "disabled",
+    "editor.stickyScroll.enabled": false,
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    //   "vim.handleKeys": {
+    //     "<C-p>": false
+    //   },
+    "vim.leader": "<space>",
+    "vim.hlsearch": true,
+    "vim.easymotion": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["K"],
+            "commands": ["lineBreakInsert"],
+            "silent": true
+        },
+        {
+            // Pressing the leader key (Spacebar) followed by r and then e renames the current symbol.
+            "before": ["<leader>", "r", "e"],
+            "commands": ["editor.action.rename"]
+        },
+        {
+            // Format the current file
+            "before": ["<Leader>", "f"],
+            "commands": ["editor.action.formatDocument"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["]", "d"],
+            "commands": ["editor.action.marker.nextInFiles"],
+            "silent": true
+        },
+        {
+            "before": ["[", "d"],
+            "commands": ["editor.action.marker.previnfiles"],
+            "silent": true
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["g", "p", "d"],
+            "commands": ["editor.action.peekDefinition"]
+        },
+        {
+            "before": ["g", "h"],
+            "commands": ["editor.action.showDefinitionPreviewHover"]
+        },
+        {
+            "before": ["g", "i"],
+            "commands": ["editor.action.goToImplementation"]
+        },
+        {
+            "before": ["g", "p", "i"],
+            "commands": ["editor.action.peekImplementation"]
+        },
+        {
+            "before": ["g", "q"],
+            "commands": ["editor.action.quickFix"]
+        },
+        {
+            "before": ["g", "r"],
+            "commands": ["editor.action.referenceSearch.trigger"]
+        },
+        {
+            "before": ["g", "t"],
+            "commands": ["editor.action.goToTypeDefinition"]
+        },
+        {
+            "before": ["g", "p", "t"],
+            "commands": ["editor.action.peekTypeDefinition"]
+        },
+        // {
+        //   "before": ["g", "n"],
+        //   "commands": ["editor.action"]
+        // },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["<Leader>", "t", "t"],
+            "commands": [":tabnew"]
+        },
+        {
+            "before": ["<Leader>", "t", "n"],
+            "commands": [":tabnext"]
+        },
+        {
+            "before": ["<Leader>", "t", "p"],
+            "commands": [":tabprev"]
+        },
+        {
+            "before": ["<Leader>", "t", "o"],
+            "commands": [":tabo"]
+        },
+        {
+            "before": ["<C-k>"],
+            "commands": ["terminal.focus"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<Leader>", "f"],
+            "commands": ["editor.action.formatSelection"]
+        }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "#a9dc7660",
+    "vim.highlightedyank.duration": 450,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[cpp]": {
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "debug.javascript.autoAttachFilter": "disabled",
+    "extensions.autoUpdate": false,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "txt": true,
+        "javascript": true,
+        "go": false,
+        "lean4": false
+    },
+    "editor.lineNumbers": "on",
+    "[makefile]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+    "terminal.integrated.minimumContrastRatio": 4,
+    "terminal.integrated.windowsUseConptyDll": true,
+    "svelte.enable-ts-plugin": true,
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "disabled",
+        "vs-kubernetes.minikube-show-information-expiration": "2026-01-21T20:22:32.536Z"
+    },
+    "files.associations": {
+        "*.drawing": "json",
+        "*.writing": "json"
+    },
+    "editor.acceptSuggestionOnEnter": "off",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "clangd.path": "%AppData%\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\19.1.2\\clangd_19.1.2\\bin\\clangd.exe",
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.formatOnSave": true,
+        "editor.semanticHighlighting.enabled": true
+    },
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "workbench.colorTheme": "gruvbox-custom",
+    "go.toolsManagement.autoUpdate": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.lintTool": "golangci-lint",
+    "terminal.integrated.suggest.providers": {
+        "terminal-suggest": true,
+        "pwsh-shell-integration": true
+    },
+    "go-template.languages": ["gohtml"],
+    "editor.fontFamily": "Cascadia Code",
+    "notebook.editorOptionsCustomizations": {
+        "editor.tabSize": 2,
+        "editor.indentSize": 2
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "githubPullRequests.queries": [
+        {
+            "label": "Waiting For My Review",
+            "query": "repo:${owner}/${repository} is:open review-requested:${user}"
+        },
+        {
+            "label": "Assigned To Me",
+            "query": "repo:${owner}/${repository} is:open assignee:${user}"
+        },
+        {
+            "label": "Created By Me",
+            "query": "repo:${owner}/${repository} is:open author:${user}"
+        },
+        {
+            "label": "All",
+            "query": "repo:${owner}/${repository} is:open"
+        }
+    ]
+}

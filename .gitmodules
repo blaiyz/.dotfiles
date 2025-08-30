@@ -1,0 +1,3 @@
+[submodule "zebar"]
+	path = zebar
+	url = https://github.com/blaiyz/neosoft-zebar.git

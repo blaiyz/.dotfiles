@@ -124,8 +124,8 @@ fi
 bindkey '^ ' autosuggest-accept
 
 
-# homebrew stuff
-#eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+homebrew stuff
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # Oh My Posh!!!
 eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/blaiyz/omp/refs/heads/main/tau.omp.toml)"

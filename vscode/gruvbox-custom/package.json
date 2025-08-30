@@ -1,0 +1,28 @@
+{
+  "name": "gruvbox-custom",
+  "displayName": "gruvbox-custom",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gruvbox-custom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-custom-color-theme.json"
+      }
+    ],
+    "semanticTokenScopes": [
+      {
+        "scopes": {
+          "templateType": ["entity.name.type.template.go"]
+        }
+      }
+    ]
+  }
+}
